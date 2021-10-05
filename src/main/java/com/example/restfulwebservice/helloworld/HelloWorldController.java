@@ -14,6 +14,7 @@ public class HelloWorldController {
 
     @Autowired
     private MessageSource messageSource;
+
     // GET
     // /hello-world (endpoint)
     @GetMapping(path = "/hello-world")
