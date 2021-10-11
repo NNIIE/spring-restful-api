@@ -8,6 +8,18 @@ logging:
 spring:
   messages:
     basename: messages
+  security:
+    user:
+      name: username
+      password: 12345678
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:testdb
 
 management:
   endpoints:
