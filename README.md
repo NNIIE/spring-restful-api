@@ -9,3 +9,4 @@
 * API 버전관리
 * HATEOAS
 * Swagger
+* Actuator
