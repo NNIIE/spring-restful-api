@@ -8,3 +8,4 @@
 * 다국어 처리
 * API 버전관리
 * HATEOAS
+* Swagger
