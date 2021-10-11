@@ -10,3 +10,4 @@
 * HATEOAS
 * Swagger
 * Actuator
+* JPA
